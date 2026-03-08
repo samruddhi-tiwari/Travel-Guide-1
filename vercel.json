@@ -1,0 +1,4 @@
+{
+  "buildCommand": "npx tsx script/build.ts",
+  "outputDirectory": "dist/public"
+}
