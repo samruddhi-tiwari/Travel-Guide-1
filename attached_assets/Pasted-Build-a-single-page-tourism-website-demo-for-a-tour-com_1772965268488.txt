@@ -1,0 +1,298 @@
+Build a single-page tourism website demo for a tour company called Cebu Travel Oslob Tours.
+
+The goal is to show the business owner how an interactive website could attract tourists and encourage bookings.
+
+Use pure HTML, CSS, and vanilla JavaScript only (no frameworks).
+The site must be visually appealing, mobile-friendly, and interactive.
+
+Use a modern travel website style with bright tropical colors inspired by the brand logo.
+
+Brand palette:
+
+Ocean teal: #3cc4b3
+
+Sunset orange: #f28c38
+
+Warm yellow background: #f3d84b
+
+Dark outline: #222
+
+Design should feel fun, tropical, and travel-oriented.
+
+Use the provided logo image as the header logo.
+
+Page Sections
+
+Create the following sections in order.
+
+1. Hero Section
+
+Full-width hero section.
+
+Elements:
+
+Logo at top
+
+Heading:
+
+"Explore Cebu with Local Experts"
+
+Subtext:
+
+Whale shark tours, waterfalls, island hopping, and unforgettable adventures.
+
+Call to action buttons:
+
+"Book a Tour"
+
+"View Cebu Bucket List"
+
+Use a tropical gradient background or ocean-style illustration.
+
+2. Tour Highlights
+
+Create 3 cards:
+
+Whale Shark Encounter (Oslob)
+
+Kawasan Falls Canyoneering
+
+Island Hopping
+
+Each card should include:
+
+image placeholder
+
+short description
+
+"Learn More" button
+
+Cards should animate slightly on hover.
+
+3. Interactive Cebu Bucket List
+
+Recreate the Cebu Bucket List idea as an interactive checklist.
+
+Title:
+
+"Cebu Travel Bucket List"
+
+Below the title display a checklist grid.
+
+Items:
+
+Kawasan Falls
+Sardine Run in Moalboal
+Osmeña Peak Sunrise
+Lechon Feast
+Whale Shark Encounter in Oslob
+Bantayan Island Beach
+Magellan's Cross
+TOPS Lookout Night View
+Sumilon Island Sandbar
+Taoist Temple
+Fort San Pedro
+Canyoneering
+Tumalog Falls
+Sirao Flower Garden
+Sugbo Mercado
+Temple of Leah
+Cebu Safari
+Puso Village
+10,000 Roses
+Little Kyoto
+
+Interactive behavior:
+
+Each item should have a checkbox.
+
+When clicked:
+
+checkbox animates
+
+item becomes highlighted
+
+progress counter updates at top
+
+Example:
+
+"You completed 5 / 20 Cebu experiences"
+
+Store progress in localStorage so it persists.
+
+4. Interactive Cebu Travel Bingo
+
+Create a 5×5 bingo grid inspired by the Instagram post.
+
+Title:
+
+"Cebu Travel Bingo"
+
+Squares should include:
+
+ate Lechon
+Whaleshark spotting
+Kawasan Falls swim
+ate dried mangoes
+learn some bisaya word
+
+Island hopping
+Temple of Leah
+Snorkeling
+Sunset at the beach
+Street food at night
+
+Took waterfall photos
+Said "Salamat" all day
+FREE SPACE
+Sang karaoke with locals
+Tried puso (hanging rice)
+
+Took a tricycle ride
+Saw Magellan’s cross
+Bought pasalubong
+Tried Tuslob Buwa
+Took a boat ride
+
+Visit Simala Church
+Badian Canyoneering
+Visit Sugbo Mercado
+Ate at Carenderia
+Cliff dive fear
+
+Interaction:
+
+When a tile is clicked:
+
+it flips or highlights
+
+adds a checkmark
+
+stays selected
+
+If user completes:
+
+full row
+
+column
+
+diagonal
+
+Display popup:
+
+"BINGO! You’re a true Cebu explorer!"
+
+Use JavaScript logic to detect bingo.
+
+Save state in localStorage.
+
+5. Gallery Section
+
+Grid of travel photos (placeholders).
+
+Images for:
+
+whale sharks
+
+waterfalls
+
+island hopping
+
+sunsets
+
+Cebu city landmarks
+
+Hover animation for images.
+
+6. Booking CTA
+
+Section encouraging booking.
+
+Title:
+
+Ready to explore Cebu?
+
+Buttons:
+
+WhatsApp Booking
+
+Call Us
+
+Display phone number placeholder.
+
+7. Footer
+
+Include:
+
+business name
+
+Cebu Philippines location
+
+contact phone
+
+copyright
+
+UI Design Requirements
+
+The UI must feel like a modern tourism landing page.
+
+Guidelines:
+
+rounded cards
+
+soft shadows
+
+smooth hover animations
+
+large readable fonts
+
+mobile-first layout
+
+responsive grid
+
+sticky navigation bar
+
+Animations should be subtle and smooth.
+
+Technical Requirements
+
+Use:
+
+HTML
+
+CSS (flexbox + grid)
+
+Vanilla JS
+
+Implement:
+
+localStorage progress tracking
+
+bingo detection algorithm
+
+responsive design
+
+simple animations
+
+Everything should be in three files only:
+
+index.html
+styles.css
+script.js
+Demo Label
+
+Add a small banner at top:
+
+"Demo website concept for Cebu Travel Oslob Tours"
+
+This helps present it as a custom preview for the client.
+
+Output
+
+Return complete working code for:
+
+index.html
+
+styles.css
+
+script.js

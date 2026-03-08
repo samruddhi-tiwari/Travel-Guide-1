@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 49 88% 97%; /* Very light warm yellow */
+    --foreground: 0 0% 13%; /* #222 */
+    
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 13%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 13%;
+    
+    --primary: 172 56% 50%; /* #3cc4b3 Ocean Teal */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 27 89% 58%; /* #f28c38 Sunset Orange */
+    --secondary-foreground: 0 0% 100%;
+    
+    --muted: 49 88% 90%; 
+    --muted-foreground: 0 0% 40%;
+    
+    --accent: 50 88% 62%; /* #f3d84b Warm yellow */
+    --accent-foreground: 0 0% 13%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 13%; /* Dark outline */
+    --input: 0 0% 13%;
+    --ring: 172 56% 50%;
+
+    --radius: 1rem;
+    
+    --font-display: 'Fredoka', sans-serif;
+    --font-body: 'Quicksand', sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-primary selection:text-white;
+    font-family: var(--font-body);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply tracking-wide font-semibold text-foreground;
+  }
+}
+
+@layer utilities {
+  .brutal-shadow {
+    box-shadow: 4px 4px 0px 0px hsl(var(--foreground));
+  }
+  .brutal-shadow-sm {
+    box-shadow: 2px 2px 0px 0px hsl(var(--foreground));
+  }
+  .brutal-shadow:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px 0px hsl(var(--foreground));
+  }
+  .brutal-shadow:active {
+    transform: translate(4px, 4px);
+    box-shadow: 0px 0px 0px 0px hsl(var(--foreground));
+  }
+}
